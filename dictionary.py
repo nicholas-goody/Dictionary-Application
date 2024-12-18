@@ -43,18 +43,87 @@ dictionary = {
     "rice": {"japanese": "gohan"},
     "fish": {"japanese": "sakana"},
     "alcoholic drink": {"japanese": "sake"},
-    "fruit": {"japanese": "kudamono"},
-	##########################################################
-    "come": {"spanish": "man"},
-    "boy": {"spanish": "book"},
-    "let": {"spanish": "mark"},
-    "go": {"spanish": "book"},
-    "meet": {"spanish": "mad"},
-    "goat": {"spanish": "mango"},
-    "make": {"spanish": "baber"},
-    "we": {"spanish": "tire"},
+    "fruit": {"japanese": "kudamono"}
 }
 
+spanish_Dictionary = {
+	
+     "greetings": {
+            "hello": "hola",
+            "goodbye": "adiós",
+            "please": "por favor",
+            "thank_you": "gracias",
+            "you're_welcome": "de nada",
+	     "Good_night": "Buenas noches",
+	     "Good_day": "Buenos dias",
+	     "Good_afternoon": "Beunos tardes",
+	     "Farewell": "Hasta pronto",
+        },
+        "colors": {
+            "red": "rojo",
+            "blue": "azul",
+            "green": "verde",
+            "yellow": "amarillo",
+            "black": "negro",
+            "white": "blanco",
+		"Grey": "Gris",
+		"purple": "Morado",
+		"Brown": "cafe/marron", 
+		"Pink": "Rosado",
+		"violet": "violeta",
+		"Navy_Blue": "azul_marino",
+		"Turquoise": "Turquesa",
+		"Lilac": "Lila",
+		"Sky_Blue": "Celeste",
+        },
+        "numbers": {
+            1: "uno",
+            2: "dos",
+            3: "tres",
+            4: "cuatro",
+            5: "cinco",
+	    6: "sies",
+	    7: "siete",
+            8: "ocho",
+	    9: "nueve",
+           10: "diez",
+	   11: "once",
+           12: "doce",
+	   13: "trece",
+	   14: "catorce",
+	   15: "quince",
+	   16: "dieciseis",
+	   17: "diecisiete",
+	   18: "dieciocho",
+	   19: "diecenueve",
+	   20: "veinte",	
+        },
+	"verbs": {
+		"irregular_verbs":{
+			"to abandon": "abandonar",
+			"to hug": "abrazar",
+			"to find out": "averiguar",
+			"to dance": "bailar",
+			"to bathe": "banar",
+			"to walk": "caminar",
+			"to sing": "cantar",
+			"to speak": "hablar",
+			"to taste": "degustar",
+			"to fight": "luchar"
+		}
+		"regular_verbs": {
+			"to learn": "aprender",
+			"to appear": "aparecer",
+			"to sweep": "barrer",
+			"to sew": "coser",
+			"to offend": "ofender",
+			"to fear": "temer",
+			"to sell": "vender",
+			"to run": "correr",
+			"to eat": "comer"
+		}
+	}
+}
 
 def translate_word():
     word = entry_word.get().strip().lower()  
