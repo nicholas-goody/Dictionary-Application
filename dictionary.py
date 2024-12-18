@@ -110,7 +110,7 @@ spanish_Dictionary = {
 			"to speak": "hablar",
 			"to taste": "degustar",
 			"to fight": "luchar"
-		}
+		},
 		"regular_verbs": {
 			"to learn": "aprender",
 			"to appear": "aparecer",
